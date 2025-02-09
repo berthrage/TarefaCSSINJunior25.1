@@ -6,6 +6,8 @@
 :root {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    line-height: 24px;
+    --blueish-color: #3fb4aa;
 }
 
 header {
@@ -40,4 +42,39 @@ header div a {
     font-size: 24px;
     font-weight: 400;
     color: black;
+}
+
+.description {
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F3F3F3;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.description img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: drop-shadow(3px 1px 2px #202020c9);
+}
+
+.description div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    letter-spacing: 0.2px;
+}
+
+.description div span:first-of-type {
+    color: var(--blueish-color);
+    font-size: 16px;
+}
+
+.description div span:nth-of-type(2) {
+    font-family: "Russo One", sans-serif;
 }
