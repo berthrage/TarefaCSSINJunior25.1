@@ -7,6 +7,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
+    background-color: #3f3f3f;
     --blueish-color: #3fb4aa;
 }
 
@@ -79,3 +80,116 @@ header div a {
 .description div span:nth-of-type(2) {
     font-family: "Russo One", sans-serif;
 }
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    padding: 20px;
+    position: relative;
+    z-index: 0;
+    color:white;
+}
+
+.lists div {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-top: 50px;
+}
+
+.lists h1 {
+    font-family: "Russo One", sans-serif;
+    font-weight: 100;
+}
+
+.lists div:first-of-type h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.lists ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.lists ol {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.lists li {
+    list-style-type: none; 
+    padding: 0; 
+    width: 102px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    box-shadow: 3px 1px 1px #20202062;
+    position: relative; 
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 1;
+}
+
+.lists li span {
+    position: relative; 
+    z-index: 2; 
+}
+
+.lists ol li span {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.lists ol li {
+    color: white;
+}
+
+.lists li img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.lists li .badge {
+    position: absolute;
+    top: -50px; 
+    left: 10%;
+    width: 10px;
+    height: 34px;
+    transform: translateX(-10%); 
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    z-index: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
