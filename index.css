@@ -72,13 +72,18 @@ header div a {
     letter-spacing: 0.2px;
 }
 
+.description h1 {
+    font-family: "Russo One", sans-serif;
+    font-weight: 50;
+}
+
 .description div span:first-of-type {
     color: var(--blueish-color);
     font-size: 16px;
 }
 
 .description div span:nth-of-type(2) {
-    font-family: "Russo One", sans-serif;
+    font-weight: bold;
 }
 
 .lists {
