@@ -11,6 +11,14 @@
     --blueish-color: #3fb4aa;
 }
 
+button {
+    border: none;
+    border-radius: 5px;
+    font-family: "Russo One", sans-serif;
+    cursor: pointer;
+    font-weight: 100;
+}
+
 header {
     font-family: "Russo One", sans-serif;
     display: flex;
@@ -250,7 +258,7 @@ header div a {
     justify-content: flex-end;
     transform: translateX(-2%);
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .feedback-form button {
@@ -258,14 +266,45 @@ header div a {
     height: 39px;
     background-color: #4CAF50;
     color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: "Russo One", sans-serif;
-    font-weight: 100;
 }
 
 .feedback-form button:hover {
     background-color: #45a049;
     transition: 0.5s;
 }
+
+footer {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 16px 72px 16px 72px;
+    background-color: rgb(206, 206, 206);
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+footer .footer-links img {
+    width: 32px;
+    height: 32px;
+}
+
+footer button {
+    width: 162px;
+    height: auto;
+    padding: 8px 16px 8px 16px;
+    background-color: #DFDFDF;
+    color: black;
+    transition: 0.5s;
+}
+
+footer button:hover {
+    width: 180px;
+    background-color: #777777;
+}
+
