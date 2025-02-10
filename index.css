@@ -212,6 +212,19 @@ header div a:hover {
     align-content: center;
 }
 
+.lists li:nth-child(1) .badge {
+    background-color: #f7df0385;
+}
+
+.lists li:nth-child(2) .badge {
+    background-color: #ebebeb83;
+}
+
+.lists li:nth-child(3) .badge {
+    background-color: #a8520185;
+    color: white;
+}
+
 .feedback-form {
     display: flex;
     justify-content: center;
