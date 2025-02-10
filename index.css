@@ -52,6 +52,11 @@ header div a {
     font-size: 24px;
     font-weight: 100;
     color: white;
+    transition: 0.5s;
+}
+
+header div a:hover {
+    font-size: 30px;
 }
 
 .description {
@@ -92,6 +97,10 @@ header div a {
 
 .description div span:nth-of-type(2) {
     font-weight: bold;
+}
+
+.description p {
+    font-size: 16px;
 }
 
 .lists {
@@ -264,13 +273,14 @@ header div a {
 .feedback-form button {
     width: 129px;
     height: 39px;
-    background-color: #4CAF50;
+    background-color: var(--blueish-color);
     color: white;
+    transition: 0.5s;
 }
 
 .feedback-form button:hover {
     background-color: #45a049;
-    transition: 0.5s;
+    width: 140px;
 }
 
 footer {
