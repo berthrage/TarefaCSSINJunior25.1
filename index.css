@@ -342,6 +342,7 @@ footer button:hover {
 @media (max-width: 395px) {
     footer {
         flex-direction: column;
+        gap: 5px;
     }
 
     .description {
