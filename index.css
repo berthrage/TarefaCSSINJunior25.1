@@ -9,6 +9,7 @@
     line-height: 24px;
     background-color: #3f3f3f;
     --blueish-color: #3fb4aa;
+    --green-color: #45a049;
 }
 
 button {
@@ -97,6 +98,12 @@ header div a:hover {
 .description div span:first-of-type {
     color: var(--blueish-color);
     font-size: 16px;
+    transition: 0.5s;
+    cursor: default;
+}
+
+.description div span:first-of-type:hover {
+    color: var(--green-color);
 }
 
 .description div span:nth-of-type(2) {
@@ -298,7 +305,7 @@ header div a:hover {
 }
 
 .feedback-form button:hover {
-    background-color: #45a049;
+    background-color: var(--green-color);
     width: 140px;
 }
 
